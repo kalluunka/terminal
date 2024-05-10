@@ -1,0 +1,54 @@
+body {
+	background: #000000;
+}
+.monitor {
+	width: 1200px; height: 430px;
+	background: #000000;
+	padding: 20px;
+	border-radius: 0px;
+	margin: 0px auto;
+	
+	font-size: 20px;
+	font-weight: bold;
+	font-famitly: monospace, courier, terminal;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000000;
+}
+.button {
+  display: inline-block; /* Stellt sicher, dass die Divs in einer Zeile bleiben */
+  margin: 5px; /* Fügt etwas Abstand zwischen den Divs hinzu */
+  cursor: pointer; /* Zeigt den Zeiger-Cursor beim Überfahren an */
+  padding: 5px 10px; /* Fügt Innenabstand hinzu, um die Klickfläche zu vergrößern */
+  border: 1px solid #ccc; /* Fügt einen Rahmen hinzu */
+}
+
+.inputField {
+	width: 1200px; height: 0px;
+	background: #000000;
+	padding: 20px;
+	border-radius: 0px;
+	margin: 10px auto;
+	position: absolute;
+	bottom: 5px;
+	
+	font-size: 20px;
+	font-weight: bold;
+	font-famitly: monospace, courier, terminal;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #000000;
+}
+
+.click {
+	width: 0px; height: 0px;
+	background: #222222;
+	padding: 25px;
+	border-radius: 5px;
+	margin: 0px auto
+	box-shadow: inset -1px 2px 10px 5px grey;
+	
+	font-size: 20px;
+	font-weight: bold;
+	font-famitly: monospace, courier, terminal;
+	color: #13DF13;
+	text-shadow: 2px 2px 2px #13CD13;
+}
