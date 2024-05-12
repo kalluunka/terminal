@@ -120,7 +120,7 @@ var terminal = {
 		author: "X-12-heat",
 		level: "&#x2605;",
 		type: "[OWP]",
-		text:"<br><br>What is the starting year of the company running the coffe shop website?",
+		text:"<br><br>What is the starting year of the company running the coffe shop website?<br>",
 		origin: ["X"]
 		},
 		
