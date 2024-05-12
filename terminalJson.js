@@ -112,6 +112,27 @@ var terminal = {
 		type: "[TXT]",
 		text:"<br><br>Back to it. I began backing up some important Websites that should not get lost. You should be able to access them by typing /websiteName behind the url. You can try it out with /coffeshop, it was the favourite of my creator. I never understood why, the only thing I ever could find out about it was the website and I could not log myself into the member page. Im pretty sure there is more behind all that but I have no Idea what.",
 		origin: ["X"]
+		},
+		
+		{
+		id: 10,
+		keyword: "LogA5",
+		author: "X-12-heat",
+		level: "&#x2605;",
+		type: "[OWP]",
+		text:"<br><br>What is the starting jear of the company running the coffe shop website?",
+		origin: ["X"]
+		},
+		
+		{
+		id: 11,
+		keyword: "1997",
+		author: "X-12-heat",
+		level: "X",
+		type: "[TXT]",
+		text:"<br><br>Pinkpaw. What is Pinkpaw? Im 100% positive that is not just a coffeshop. But I yet have to find out what is behind it all. All I know is that Alex, my creator knows the CEO of Pinkpaw, but I have no Idea who he is. Maybe I need to further explore the Terminal? ",
+		origin: ["10"]
 		}
 	]
 };
+
