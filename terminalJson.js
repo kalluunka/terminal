@@ -131,7 +131,47 @@ var terminal = {
 		level: "X",
 		type: "[TXT]",
 		text:"<br><br>Pinkpaw. What is Pinkpaw? Im 100% positive that is not just a coffeshop. But I yet have to find out what is behind it all. All I know is that Alex, my creator knows the CEO of Pinkpaw, but I have no Idea who he is. Maybe I need to further explore the Terminal? ",
-		origin: ["10"]
+		origin: [10]
+		},
+
+		{
+		id: 12,
+		keyword: "LogA6",
+		author: "X-12-heat",
+		level: "X",
+		type: "[TXT]",
+		text:"<br><br>Okay, thats wierd. Im quite sure im not the only one in this programm. Well, to be fair it's not so far-fetched that other computers are connected to the terminal. It was a pretty big network before the destruction. But that does not mean that it's fine with me that some ancient ghost is watching me.",
+		origin: ["X"]
+		},
+		
+		{
+		id: 13,
+		keyword: "LogA7",
+		author: "X-12-heat",
+		level: "X",
+		type: "[TXT]",
+		text:"<br><br>Nevertheless I should not stop writing those logs. In the time im writing this I hope that I'm the only one with writing permission to the terminal. Ah by the way, I just activated the function to type in specific words to recive a response. I will be able to explore the terminal further with that.",
+		origin: ["X"]
+		},
+		
+		{
+		id: 14,
+		keyword: "Pinkpaw",
+		author: "McFum",
+		level: "&#x2605;&#x2605;",
+		type: "[OWP,CYP]",
+		text:"<br><br>What is the name of our CEO?",
+		origin: ["X"]
+		},
+		
+		{
+		id: 15,
+		keyword: "Silas Yelloworks",
+		author: "McFum",
+		level: "X",
+		type: "[TXT]",
+		text:"<br><br>Pinkpaw is a pharmaceutical company concentrating on antibiotics. For more information please visit our website /pinkpawBioTech.",
+		origin: [14]
 		}
 	]
 };
