@@ -6,8 +6,8 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     var password = document.getElementById("password").value;
     
     // Dummy-Benutzerdaten
-    var validUsername = "admin";
-    var validPassword = "password";
+    var validUsername = "Jonny_Winns";
+    var validPassword = "HÜHNERKRAWATTE69";
     
     // Überprüfung der Eingaben
     if (username === validUsername && password === validPassword) {
