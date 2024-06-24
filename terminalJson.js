@@ -120,7 +120,7 @@ var terminal = {
 		author: "12-X-heat",
 		level: "&#x2605;",
 		type: "[OWP]",
-		text:"<br><br>What is the starting year of the company running the coffe shop website?<br>",
+		text:"<br><br>What is the starting year of the company running the coffe shop website?",
 		origin: ["X"]
 		},
 		
@@ -133,11 +133,11 @@ var terminal = {
 		text:"<br><br>Pinkpaw. What is Pinkpaw? Im 100% positive that is not just a coffeshop. But I yet have to find out what is behind it all. All I know is that Alex, my creator knows the CEO of Pinkpaw, but I have no Idea who he is. Maybe I need to further explore the Terminal? ",
 		origin: [10]
 		},
-
+		
 		{
 		id: 12,
 		keyword: "LogA6",
-		author: "X-12-heat",
+		author: "12-X-heat",
 		level: "X",
 		type: "[TXT]",
 		text:"<br><br>Okay, thats wierd. Im quite sure im not the only one in this programm. Well, to be fair it's not so far-fetched that other computers are connected to the terminal. It was a pretty big network before the destruction. But that does not mean that it's fine with me that some ancient ghost is watching me.",
@@ -147,7 +147,7 @@ var terminal = {
 		{
 		id: 13,
 		keyword: "LogA7",
-		author: "X-12-heat",
+		author: "12-X-heat",
 		level: "X",
 		type: "[TXT]",
 		text:"<br><br>Nevertheless I should not stop writing those logs. In the time im writing this I hope that I'm the only one with writing permission to the terminal. Ah by the way, I just activated the function to type in specific words to recive a response. I will be able to explore the terminal further with that.",
@@ -172,6 +172,16 @@ var terminal = {
 		type: "[TXT]",
 		text:"<br><br>Pinkpaw is a pharmaceutical company concentrating on antibiotics. For more information please visit our website /pinkpawBioTech.",
 		origin: [14]
+		},
+		
+		{
+		id: 16,
+		keyword: "LogA8",
+		author: "12-X-heat",
+		level: "X",
+		type: "[TXT]",
+		text:"<br><br>Allright, I found out a lot about the world before the thing happened. A lot of things are going on that I could never have imagined, all secured in the Terminal. There are creatures we only know through stories, objects that are as powerful as they are dangerous and a foundation to secure them, to contain them, to protect them.",
+		origin: ["X"]
 		}
 	]
 };
