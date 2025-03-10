@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="coffeshop.css">
+    <script src="coffeshop.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Welcome to Our Coffee Shop</h1>
+        </div>
+        
+        <div class="navbar">
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#guestbook">Guestbook</a></li>
+                <li><a href="#login">Member Login</a></li>
+            </ul>
+        </div>
+        
+        <div id="menu">
+            <h2>Our Menu</h2>
+    <div class="menu-item">
+        <img src="coffee1.jpg" alt="Coffee 1">
+        <p>A delicious coffee with a hint of vanilla.</p>
+    </div>
+    <div class="menu-item">
+        <img src="coffee2.jpg" alt="Coffee 2">
+        <p>A bold espresso for the perfect start to your day.</p>
+    </div>
+    <div class="menu-item">
+        <img src="coffee3.jpg" alt="Coffee 3">
+        <p>A refreshing iced coffee for hot summer days.</p>
+    </div>
+        </div>
+        
+        <div id="guestbook">
+            <h2>Guestbook</h2>
+            <p><strong>Name: </strong>Test</p>
+            <p><strong>AlexTheBaller: </strong>The caesar dressing is the best (;</p>
+            <p><strong>DavidLDawg: </strong>This shop deserves as much love as dogs (:</p>
+            <p><strong>Kalle: </strong>Oh man XD I just ate them mice</p>
+            <p><strong>TheRizzler: </strong>Jo nice shop guys buy coffe here</p>
+            <p><strong>casoeh: </strong>Ban everyone saying this shop is ass!!</p>
+            <p><strong>X-12-heat: </strong>Who are you Pinkpaw CEO /:</p>
+            <p><strong>CJDS07: </strong>Maultaschen Bot</p>
+            <p><strong>Andreas Tatus: </strong>Women are my...possesions</p>
+            <p><strong>Mandall Runroe: </strong>I might be on a CIA-Watchlist now...after drinking this wonderful coffe</p>
+            <p><strong>Lristian Chrinder: </strong>Capitalism 1#</p>
+            <p><strong>Mrs. Boehnisch: </strong>Where's Atzendorf?</p>
+            <div id="comments"></div>
+
+    <h2>Add a Comment</h2>
+    <form id="commentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" required></textarea>
+        <br>
+        <input type="submit" value="Post Comment">
+    </form>
+        </div>
+        
+        <div id="login">
+            <h2>Member Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <br>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+        
+        <div class="footer">
+			<p>All coffes served. Our owner Zpshz Flssvdvyrz thanks you 7 times!</p>
+            <p>&copy; 1997 - 20XX Pinkpaw</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -12,7 +12,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     // Überprüfung der Eingaben
     if (username === validUsername && password === validPassword) {
         alert("Login successful! Welcome, " + username + "!");
-        window.location.href = "https://kalluunka.github.io/terminal/coffeshop/test.html";
+        window.location.href = "file:///C:/Users/luisa/Documents/Webseiten/terminal/coffeshop/test.html";
         // Weiterleitung zum Mitgliederbereich oder andere Aktionen
     } else {
         alert("Invalid username or password. Please try again.");
